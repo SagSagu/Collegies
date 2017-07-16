@@ -40,9 +40,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         setContentView(R.layout.login_layout);
 
 
-        etSignupEmail = (EditText) findViewById(R.id.singup_email);
-        etSignupPassword = (EditText) findViewById(R.id.singup_password);
-        etSignupcPassword = (EditText) findViewById(R.id.singup_cPassword);
+        etSignupEmail = (EditText) findViewById(R.id.signup_email);
+        etSignupPassword = (EditText) findViewById(R.id.signup_password);
+        etSignupcPassword = (EditText) findViewById(R.id.signup_cPassword);
         etSigninEmail = (EditText) findViewById(R.id.signin_email);
         etSigninPassword = (EditText) findViewById(R.id.signin_password);
 
