@@ -12,7 +12,8 @@
         android:layout_height="wrap_content"
         android:paddingBottom="20dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/login_user" />
+        android:src="@drawable/login_user"
+        android:id="@+id/imgUser"/>
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
@@ -20,7 +21,7 @@
         android:textColorHint="#FFF">
 
         <android.support.design.widget.TextInputEditText
-            android:id="@+id/singup_email"
+            android:id="@+id/signup_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email"
@@ -35,7 +36,7 @@
         android:textColorHint="#FFF">
 
         <android.support.design.widget.TextInputEditText
-            android:id="@+id/singup_password"
+            android:id="@+id/signup_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"
@@ -50,7 +51,7 @@
         android:textColorHint="#FFF">
 
         <android.support.design.widget.TextInputEditText
-            android:id="@+id/singup_cPassword"
+            android:id="@+id/signup_cPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Confirm Password"
