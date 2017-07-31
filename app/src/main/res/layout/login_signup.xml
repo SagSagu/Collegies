@@ -69,5 +69,14 @@
         android:textColor="#FFF"
         android:textSize="30sp" />
 
+    <com.github.ybq.android.spinkit.SpinKitView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/spin_kit"
+        style="@style/SpinKitView.Small.WanderingCubes"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        app:SpinKit_Color="#ffffff" />
+
 
 </LinearLayout>

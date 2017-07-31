@@ -92,7 +92,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
         llSignup = (LinearLayout) findViewById(R.id.llSignup);
         llSignin = (LinearLayout) findViewById(R.id.llSignin);
-        llSignupDetails = (LinearLayout) findViewById(R.id.llSignupDetails);
+       // llSignupDetails = (LinearLayout) findViewById(R.id.llSignupDetails);
 
         btnSignin.setOnClickListener(this);
         btnSignup.setOnClickListener(this);
@@ -185,7 +185,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
             case R.id.btnSignin:
                email = etSigninEmail.getText().toString();
-               password = etSignupPassword.getText().toString();
+               password = etSigninPassword.getText().toString();
 
                 firebaseAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
@@ -225,7 +225,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
                 boolean validate = validates();
 
-                if(validate) {
+                //if(validate) {
 
                     progressBar.setVisibility(View.VISIBLE);
 
@@ -255,7 +255,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                                     // ...
                                 }
                             });
-                }
+                //}
 
 
 
